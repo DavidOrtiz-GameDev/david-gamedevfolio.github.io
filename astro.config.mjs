@@ -5,7 +5,7 @@ import icon from 'astro-icon';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://david-gamedevfolio.github.io',
+  site: 'https://davidortiz-gamedev.github.io/portfolio/',
   integrations: [icon()],
   vite: {
     // @ts-ignore
