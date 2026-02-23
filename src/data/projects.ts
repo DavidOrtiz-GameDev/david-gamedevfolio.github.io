@@ -30,10 +30,16 @@ export const PROJECTS = [
         /* tags: [TAGS.REACT, TAGS.TAILWIND, TAGS.NODE], */
     },
     {
-        title: "EcoEarth - Sustainable E-commerce Platform",
+        title: "Play With Me",
         description:
             "A modern eco-friendly marketplace focused on sustainable living. Highly optimized for performance and accessibility, featuring a custom CMS for organic product curation.",
         videoEmbedUrl: "https://www.youtube.com/embed/YWk1_vkW7YE?si=G68eXh66K9QLe1h2",
         /* tags: [TAGS.ASTRO, TAGS.TAILWIND, TAGS.REACT], */
+    },
+    {
+        title: "Crafting Puzzle",
+        description:
+            "A puzzle-RPG game.",
+        videoEmbedUrl: "https://www.youtube.com/embed/YWk1_vkW7YE?si=G68eXh66K9QLe1h2",
     },
 ];
