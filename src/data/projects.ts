@@ -27,15 +27,13 @@ export const PROJECTS = [
         description:
             "A high-performance dashboard for tracking cryptocurrency trends. Features live charts, portfolio management, and automated market alerts.",
         videoEmbedUrl: "https://www.youtube.com/embed/e_-9azQLHwI?si=-9sYJqHK5pKnVquB",
-        tags: [TAGS.REACT, TAGS.TAILWIND, TAGS.NODE],
+        /* tags: [TAGS.REACT, TAGS.TAILWIND, TAGS.NODE], */
     },
     {
         title: "EcoEarth - Sustainable E-commerce Platform",
         description:
             "A modern eco-friendly marketplace focused on sustainable living. Highly optimized for performance and accessibility, featuring a custom CMS for organic product curation.",
-        link: "https://ecoearth-shop.dev",
-        github: "https://github.com/jhondoe/ecoearth",
-        image: "/projects/ecoearth.webp",
-        tags: [TAGS.ASTRO, TAGS.TAILWIND, TAGS.REACT],
+        videoEmbedUrl: "https://www.youtube.com/embed/YWk1_vkW7YE?si=G68eXh66K9QLe1h2",
+        /* tags: [TAGS.ASTRO, TAGS.TAILWIND, TAGS.REACT], */
     },
 ];
