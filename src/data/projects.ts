@@ -23,12 +23,10 @@ export const TAGS = {
 
 export const PROJECTS = [
     {
-        title: "CryptoViz - Real-time Analytics Dashboard",
+        title: "Stampede 3D",
         description:
             "A high-performance dashboard for tracking cryptocurrency trends. Features live charts, portfolio management, and automated market alerts.",
-        link: "https://cryptoviz-demo.vercel.app/",
-        github: "https://github.com/jhondoe/cryptoviz",
-        image: "/projects/cryptoviz.webp",
+        videoEmbedUrl: "https://www.youtube.com/embed/e_-9azQLHwI?si=-9sYJqHK5pKnVquB",
         tags: [TAGS.REACT, TAGS.TAILWIND, TAGS.NODE],
     },
     {
