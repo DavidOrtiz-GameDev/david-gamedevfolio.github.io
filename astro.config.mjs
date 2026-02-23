@@ -8,6 +8,7 @@ export default defineConfig({
   site: 'https://david-gamedevfolio.github.io',
   integrations: [icon()],
   vite: {
+    // @ts-ignore
     plugins: [tailwindcss()]
   }
 });
