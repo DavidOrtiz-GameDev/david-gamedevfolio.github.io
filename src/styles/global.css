@@ -2,27 +2,27 @@
 
 
 .primary {
-  color: #f09744;
+  color: #d15217;
 }
 .secondary {
   color: #a53f10;
 }
 .bg-primary {
-  background-color: #f09744;
+  background-color: #d15217;
 }
 .bg-secondary {
   background-color: #a53f10;
 }
 .text-primary {
-  color: #f09744;
+  color: #d15217;
 }
 
 /* reglas hover (usar estas clases directamente) */
 .hover-text-secondary:hover {
-  color: #f09744;
+  color: #d15217;
 }
 .hover-bg-secondary:hover {
-  background-color: #f09744;
+  background-color: #d15217;
 }
 .hover\:bg-secondary:hover {
   background-color: #a53f10;
