@@ -5,10 +5,12 @@ import icon from 'astro-icon';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://davidortiz-gamedev.github.io/portfolio/',
-  integrations: [icon()],
+  site: 'https://davidortiz-gamedev.github.io',
+  base: '/portfolio',
   vite: {
     // @ts-ignore
     plugins: [tailwindcss()]
-  }
+  },
+
+  integrations: [icon()],
 });
