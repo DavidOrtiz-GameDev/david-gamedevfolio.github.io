@@ -6,10 +6,8 @@ import icon from 'astro-icon';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://david-gamedevfolio.github.io',
-  base: '/my-repo',
   integrations: [icon()],
   vite: {
-    // @ts-ignore
     plugins: [tailwindcss()]
   }
 });
