@@ -25,14 +25,15 @@ export const PROJECTS = [
     {
         title: "Stampede 3D",
         description:
-            "A high-performance dashboard for tracking cryptocurrency trends. Features live charts, portfolio management, and automated market alerts.",
+            "Stampede 3D is a fast and chaotic arcade runner where every buffalo counts. Grow your stampede, dodge obstacles, and try to reach the finish line with the biggest herd you can keep alive.",
         videoEmbedUrl: "https://www.youtube.com/embed/e_-9azQLHwI?si=-9sYJqHK5pKnVquB",
+        link: "https://store.steampowered.com/app/2051650/Play_With_Me/",
         /* tags: [TAGS.REACT, TAGS.TAILWIND, TAGS.NODE], */
     },
     {
         title: "Play With Me",
         description:
-            "A modern eco-friendly marketplace focused on sustainable living. Highly optimized for performance and accessibility, featuring a custom CMS for organic product curation.",
+            "In Play With Me, you play as the pirate toy who wants nothing more than to be played with by your human owner. It was a final‑year project developed by a team of three, which we put a lot of heart into and eventually released on Steam.",
         videoEmbedUrl: "https://www.youtube.com/embed/YWk1_vkW7YE?si=G68eXh66K9QLe1h2",
         /* tags: [TAGS.ASTRO, TAGS.TAILWIND, TAGS.REACT], */
     },
