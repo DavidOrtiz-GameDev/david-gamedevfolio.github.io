@@ -12,7 +12,7 @@ export const PERSONAL_INFO = {
             label: "LinkedIn",
         },
         { href: "https://github.com/DavidOrtiz-GameDev", label: "GitHub" },
-        { href: "https://x.com/", label: "Twitter" },
+        { /*href: "https://x.com/", label: "Twitter" },*/
         { href: "mailto:d.ortiz.aguilera@gmail.com", label: "Email" },
     ],
 };
