@@ -101,11 +101,15 @@ const { image, title, description, tags, link, github, videoEmbedUrl, inProgress
                     </LinkButton>
                 )
             }
-            <p class="text-lg text-gray-300 mb-8 leading-relaxed font-light">
-                <span class="inline-flex items-center px-4 py-2 rounded-md bg-gray-800 text-gray-200 transition duration-200">
-                    {inProgress}
-                </span>
-            </p>
+            {
+                inProgress && (
+                    <p class="text-lg text-gray-300 mb-8 leading-relaxed font-light">
+                        <span class="inline-flex items-center px-3 py-2 rounded-xl bg-gray-800 border border-gray-600 text-base text-white">
+                            {inProgress}
+                        </span>
+                    </p>
+                )
+            }
         </footer>
     </div>
 </article>
