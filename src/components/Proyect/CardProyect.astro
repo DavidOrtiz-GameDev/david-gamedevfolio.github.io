@@ -15,7 +15,7 @@ interface Props {
     link?: string;
     github?: string;
     videoEmbedUrl?: string;
-    inProgress?: string,
+    inProgress?: string;
 }
 
 const { image, title, description, tags, link, github, videoEmbedUrl } = Astro.props;
@@ -102,8 +102,8 @@ const { image, title, description, tags, link, github, videoEmbedUrl } = Astro.p
                 )
             }
             <p class="text-lg text-gray-300 mb-8 leading-relaxed font-light">
-            {inProgress}
-        </p>
+                {inProgress}
+            </p>
         </footer>
     </div>
 </article>
