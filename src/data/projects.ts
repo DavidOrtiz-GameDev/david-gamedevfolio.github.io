@@ -42,6 +42,14 @@ export const PROJECTS = [
         title: "Crafting Puzzle",
         description:
             "A sandbox RPG where you gather resources, craft materials and tools, and use them to solve a variety of puzzles as you progress through the adventure.",
-        videoEmbedUrl: "https://www.youtube.com/embed/YWk1_vkW7YE?si=G68eXh66K9QLe1h2",
+        image: "/portfolio/images/CPLogo.png",
+        link: "https://davidgamesdev.itch.io/crafting-puzzle",
     },
+    {
+        title: "World of Classes",
+        description:
+            "Explore a procedurally generated medieval world where every playthrough is different. Choose your role and shape your own path: become a skilled farmer, a dedicated builder, an adventurous explorer, or any other profession you want to master. Gather resources, expand your land, and develop your abilities as you create your own story in a living open world.",
+        image: "/portfolio/images/WoCSS.png",
+        inProgress: "Project in Progress",
+    }
 ];
